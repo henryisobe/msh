@@ -205,6 +205,7 @@ int main()
       {
         printf("%s: Command not found\n\n", token[0]);
       }
+      exit(0);
     }
 
     // parent process
